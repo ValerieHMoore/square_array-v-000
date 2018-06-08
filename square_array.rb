@@ -1,3 +1,3 @@
 def square_array(array)
-  array.each {|num| * num}
+  array.map! {|num| ** 2}
 end
